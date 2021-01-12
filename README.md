@@ -18,3 +18,15 @@
 * Lot 3 had a p-value of 0.04168, meaning that sample did not meet the p-value requirement. Therefore, we must reject the null hypothesis, and this sample can be said to be statistically different from the population data.
 
 ![alt text](https://github.com/XZandermarsh/MechaCar_Statistical_Analysis/blob/main/t_test_Results_ScreenShot.png "t-test Results Screenshot")
+
+## Study Design: MechaCar vs Competition
+
+### Cost
+* Null Hypothesis: There is no statistical difference in cost between MechaCar and competitors.
+* Alternative Hypothesis: There is a statistical difference between MechaCar and competitors.
+* Study Design: Since cost is a continuous dependent variable, we could perform a two-sample t-test using MechaCar and competitor data to understand if there is a statistical difference between the distribution means of car prices at each company. Data needed to perform the test would be a sample from each car company of sold vehicles. Simply averaging the price of each car in their lineups would not give a representative view of their true cost, since lower cost models tend to sell in higher volumes.
+
+### Fuel Efficiency
+* Null Hypothesis: There is no statistical difference in fuel efficiency between MechaCar and competitors.
+* Alternative Hypothesis: There is a statistical difference between MechaCar and competitors.
+* Study Design: Again, since fuel efficiency is a continuous dependent variable, we could perform a two-sample t-test using MechaCar and competitor data to understand if there is a statistical difference between the distribution means of miles per gallon. Data needed to perform the analysis would be highway and city fuel economy data for each company. The two-sample t-test could be performed a total of three times (overall mpg, highway mpg, city mpg).
