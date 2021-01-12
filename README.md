@@ -11,3 +11,10 @@
 
 ![alt text](https://github.com/XZandermarsh/MechaCar_Statistical_Analysis/blob/main/Total_Summary_ScreenShot.png "Total Summary Screenshot")
 ![alt text](https://github.com/XZandermarsh/MechaCar_Statistical_Analysis/blob/main/Lot_Summary_ScreenShot.png "Lot Summary Screenshot")
+
+## T-Tests on Suspension Coils
+* The t-tests show that the overall data does not have a statistical (non-random) variance from the assumed mean of 1500. While the mean of the overall data was 1498.78, the p-value was 0.06028. Based on a 95% confidence interval, this meets the p-value requirement (>0.05) to for us to accept the null hypothesis (no statistical difference from expected value)
+* Lot 1 and Lot 2 also meet the p-value requirement based on p-values of 1 and 0.6072, respectively. They are not statistically different from the assumed population mean.
+* Lot 3 had a p-value of 0.04168, meaning that sample did not meet the p-value requirement. Therefore, we must reject the null hypothesis, and this sample can be said to be statistically different from the population data.
+
+![alt text](https://github.com/XZandermarsh/MechaCar_Statistical_Analysis/blob/main/t_test_Results_ScreenShot.png "t-test Results Screenshot")
